@@ -8,7 +8,6 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 try:
     import tools.addons.clean
-    import tools.addons.winpcap
     import tools.addons.logo
 except ImportError:
     print("Failed import some modules :/")
